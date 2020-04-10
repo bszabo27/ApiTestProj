@@ -45,8 +45,8 @@ namespace ApiTestProj
             // https://developers.google.com/sheets/api/samples/writing
 
             //Generated and donwloaded Service Account key
-            var serviceAccount_keyFile = @"c:\apitest-273518-982e93166b41.p12";    
-            var serviceAccount_EmailAddress = "postmanapitestacc@apitest-273518.iam.gserviceaccount.com"; 
+            var serviceAccount_keyFile = @"c:\accountkeyfile.p12";    
+            var serviceAccount_EmailAddress = "serviceaccname@solutionname.iam.gserviceaccount.com"; 
             
             //Define scopes for later use. We can use all Drive scopes beacuse its a Service Acc.
             //Otherwise we would need to go trugh a 3-4 week long review process by google to get special permissions for those operations.
